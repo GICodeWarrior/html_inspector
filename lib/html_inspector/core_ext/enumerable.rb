@@ -1,4 +1,4 @@
-class Enumerable
+module Enumerable
   def html_inspect
     list = '<ul>'
     self.each do |element|
